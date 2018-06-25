@@ -3,7 +3,7 @@ class v3
 private:
 	double v[3];
 public:
-	v3(double a ,double b , double c );
+	v3(double a =0,double b =0, double c=0 );
 	~v3();
 	v3(const v3& rhs);                  //Copy Constructor 
 	v3 & operator=(const v3 & rhs); 	//assignment operator 
