@@ -1,3 +1,5 @@
+#ifndef _LINESEGMENT_H
+#define _LINESEGMENT_H 
 #include "v3.h"
 class lineSegment
 {
@@ -9,3 +11,6 @@ public:
 private: 
 	v3 v[2];
 };
+
+#endif
+

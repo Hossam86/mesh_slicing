@@ -1,3 +1,6 @@
+
+#ifndef PLANE_H
+#define PLANE_H
 #include "v3.h"
 class Plane
 {
@@ -11,3 +14,5 @@ private:
 	v3 normal;
 
 };
+
+#endif

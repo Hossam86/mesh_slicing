@@ -1,3 +1,6 @@
+#ifndef TRIANGLE_H
+#define TRIANGLE_H
+
 #include "v3.h"
 class triangle
 {
@@ -10,3 +13,5 @@ private:
 	v3 p[3];
     v3 normal;
 };
+
+#endif
