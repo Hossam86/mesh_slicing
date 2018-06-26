@@ -11,6 +11,13 @@ triangle::~triangle()
 {
 
 }
+triangle& triangle::operator-=(const v3 & p)
+{
+	this->p[0]-=p;
+	this->p[1]-=p;
+	this->p[2]-=p;
+	return * this;
+}
 
 void triangle::setNormal(const v3 & n)
 {
@@ -21,3 +28,4 @@ v3& triangle:: getNormal()
 {
  return this->normal;	
 }
+

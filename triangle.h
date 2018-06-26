@@ -7,6 +7,7 @@ class triangle
 public:
 	triangle(const v3 & p0, const v3 & p1, const v3 & p2);
 	~triangle();
+	triangle & operator-=(const v3 & rhs);
 	v3& getNormal();
 	void setNormal(const v3 &N);
 private:
