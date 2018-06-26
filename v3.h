@@ -1,9 +1,11 @@
+#ifndef _V3_H
+#define _V3_H 
 class v3
 {
 private:
 	double v[3];
 public:
-	v3(double a =0,double b =0, double c=0 );
+	v3(double a =0,double b =0, double c=0);
 	~v3();
 	v3(const v3& rhs);                  //Copy Constructor 
 	v3 & operator=(const v3 & rhs); 	//assignment operator 
@@ -15,3 +17,5 @@ public:
 	double dot(const v3 & rhs);      // dot product
 	v3  cross(const v3 & rhs);		// cross product
 };
+
+#endif

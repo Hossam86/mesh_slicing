@@ -1,14 +1,16 @@
 #include "v3.h"
-v3::v3( double a = 0 , double b = 0, double c = 0)
+v3::v3(double a , double b , double c)
 {
  this-> v[0]=a;
  this-> v[1]=b;
  this-> v[2]=c;
 }
 
-v3 :: v3 (const v3 & rhs)
+v3::v3 (const v3 & rhs)
 {
-
+v[0]=rhs.v[0];
+v[1]=rhs.v[1];
+v[2]=rhs.v[2];
 }
 
 v3::~v3()
