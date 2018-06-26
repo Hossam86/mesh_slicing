@@ -12,9 +12,8 @@ public:
 	void normalize();
 
 protected:
-double bottomLeftVertex;
-double topRightVertex;
+v3 bottomLeftVertex ;
+v3 topRightVertex ;
 std::vector<triangle> mesh;
 };
-
 #endif
