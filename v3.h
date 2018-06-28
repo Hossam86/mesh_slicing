@@ -16,6 +16,9 @@ public:
 	v3 & operator-=(const v3 & rhs);
 	double dot(const v3 & rhs);      // dot product
 	v3  cross(const v3 & rhs);		// cross product
+	double getX() const;
+	double getY() const;
+	double getZ() const;
 };
 
 #endif

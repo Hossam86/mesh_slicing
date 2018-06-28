@@ -65,3 +65,18 @@ v3 v3::cross(const v3 & rhs)
 	// code
 	return result;
 }
+
+double v3::getX() const
+{
+	return v[0];
+}
+
+double v3::getY() const
+{
+	return v[1];
+}
+
+double v3::getZ() const
+{
+	return v[2];
+}
