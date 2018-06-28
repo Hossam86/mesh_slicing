@@ -28,4 +28,9 @@ v3& triangle:: getNormal()
 {
  return this->normal;	
 }
-
+// void triangle::transform(const glm::mat4 & mat)
+// {
+// 	p[0].transform(mat);
+// 	p[1].transform(mat);
+// 	p[2].tranform(mat);
+// }

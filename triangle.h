@@ -10,6 +10,7 @@ public:
 	triangle & operator-=(const v3 & rhs);
 	v3& getNormal();
 	void setNormal(const v3 &N);
+	//void transform(glm::mat4 & mat);
 private:
 	v3 p[3];
     v3 normal;
