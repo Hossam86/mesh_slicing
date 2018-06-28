@@ -1,7 +1,8 @@
 #include "triangle.h"
 
-triangle::triangle(const v3 & p0, const v3 & p1, const v3 & p2)
+triangle::triangle(const v3 & n, const v3 & p0, const v3 & p1, const v3 & p2)
 {
+this->normal=n;
 p[0]=p0;
 p[1]=p1;
 p[2]=p2;
