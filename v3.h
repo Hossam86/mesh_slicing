@@ -19,6 +19,8 @@ public:
 	double getX() const;
 	double getY() const;
 	double getZ() const;
+	// void tranform(glm::mat4 &mat);
+
 };
 
 #endif

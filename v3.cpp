@@ -80,3 +80,12 @@ double v3::getZ() const
 {
 	return v[2];
 }
+
+// void v3::transform(const glm::mat4 & mat)
+// {
+// 	glm::vec4 v =glm::vec4(x,y,z,1.0f),vt;
+// 	vt=mat * v;
+// 	x=vt.x;
+// 	y=vt.y;
+// 	z=vt.z;
+// }
