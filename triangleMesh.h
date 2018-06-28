@@ -1,12 +1,16 @@
 #ifndef TRIANGLEMESH_H
 #define TRIANGLEMESH_H 
+#include<iostream>
+#include<fstream>
 #include <vector>
+#include <exception>
 #include "triangle.h"
 
 class triangleMesh
 {
 public:
 	triangleMesh();
+	triangleMesh(const char * stlFile,bool isBinary);
 	~triangleMesh();
 	size_t size();
 	void normalize();
