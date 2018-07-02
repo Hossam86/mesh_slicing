@@ -2,6 +2,12 @@
 #define TRIANGLE_H
 
 #include "v3.h"
+#include<iostream>
+#include <vector>
+#include "lineSegment.h"
+#include "Plane.h"
+
+
 class triangle
 {
 public:
@@ -11,9 +17,9 @@ public:
 	v3& getNormal();
 	void setNormal(const v3 &N);
 	//void transform(glm::mat4 & mat);
+	int intersectPlane(const Plane & p,lineSegment & seg)const;
 private:
 	v3 p[3];
     v3 normal;
 };
-
 #endif
