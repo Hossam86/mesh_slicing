@@ -10,7 +10,7 @@ Plane::~Plane()
 
 }
 
-double Plane::distanceToPoint(v3 & point)
+double Plane::distanceToPoint(const v3 & point) const
 {
 	double result=point.dot(normal);
 	return result;
