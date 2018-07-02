@@ -15,3 +15,7 @@ v3 &lineSegment:: getVertex(int i)
 	return v[i];
 }
 
+void lineSegment::setVertex(const v3 & v, int i)
+{
+ this->v[i]=v;
+}
