@@ -10,7 +10,9 @@ public:
 	v3(const v3& rhs);                  //Copy Constructor 
 	v3 & operator=(const v3 & rhs); 	//assignment operator 
 	v3 operator +(const v3 & rhs);      // sum operator
+	const v3 operator +(const v3 & rhs) const;      // sum operator
 	v3 operator -( const v3 & rhs);     // subtract operator 
+	const v3 operator -( const v3 & rhs) const;     // subtract operator 
 	v3 operator /(double a)	;		// divide operatorr
 	v3 operator * (double a);
 	v3 & operator-=(const v3 & rhs);

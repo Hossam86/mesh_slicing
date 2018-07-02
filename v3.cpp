@@ -30,8 +30,18 @@ v3 v3::operator+(const v3 & rhs)
 {
 	return v3(v[0]+rhs.v[0],v[1]+rhs.v[1], v[2]+rhs.v[2]);
 }
+const v3 v3::operator+(const v3 & rhs)const
+{
+	return v3(v[0]+rhs.v[0],v[1]+rhs.v[1], v[2]+rhs.v[2]);
+}
+
 
 v3 v3 ::operator-(const v3 & rhs)
+{
+ return v3(v[0]-rhs.v[0],v[1]-rhs.v[1],v[2]-rhs.v[2]);
+}
+
+const v3 v3 ::operator-(const v3 & rhs)const
 {
  return v3(v[0]-rhs.v[0],v[1]-rhs.v[1],v[2]-rhs.v[2]);
 }
