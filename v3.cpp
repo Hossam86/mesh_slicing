@@ -64,7 +64,7 @@ v3 & v3::operator-= (const v3 & rhs)
 	 return *this;
 }
 
-double v3::dot(const v3 & rhs)
+double v3::dot(const v3 & rhs) const
 {
  return v[0]*rhs.v[0]+v[1]*rhs.v[1]+v[2]+rhs.v[2];
 }

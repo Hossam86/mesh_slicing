@@ -16,7 +16,7 @@ public:
 	v3 operator /(double a)	;		// divide operatorr
 	v3 operator * (double a);
 	v3 & operator-=(const v3 & rhs);
-	double dot(const v3 & rhs);      // dot product
+	double dot(const v3 & rhs) const;      // dot product
 	v3  cross(const v3 & rhs);		// cross product
 	double getX() const;
 	double getY() const;
