@@ -4,6 +4,7 @@
 class lineSegment
 {
 public:
+	lineSegment();
 	lineSegment(const v3 & p0, const v3 & p1);
 	~lineSegment();
 	v3 & getVertex(int i);
